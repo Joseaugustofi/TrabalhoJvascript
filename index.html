@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empatia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="img/icon/icone.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="100" height="auto" alt="">
+          </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#" id="open">Adicionar receita</a>
+          </div>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</header>
+<body>
+  <h1>Nossas receitas!</h1>
+  <div id="shopping-list"></div>
+    <div class="popup-container">
+        <div class="popup-box">
+          <div class="container">
+            <h1 class="text-center mt-3 mb-4">Nova Receita!</h1>
+            <div class="mb-3">
+                <input type="text" id="item-input" class="form-control mb-2" placeholder="Nome do alimento">
+                <textarea rows="4" id="desc-input" class="form-control mb-2" placeholder="Ingredientes e Modo de preparo"></textarea>
+                <input type="file" id="file-input" class="form-control mb-3">
+                <button class="btn btn-primary" id="add-item-btn">Adicionar Receita</button>
+                <script src="js/localStorage.js"></script>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
